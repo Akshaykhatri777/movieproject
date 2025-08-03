@@ -4,10 +4,6 @@ env/
 # Python Cache
 __pycache__/
 
-# Data Artifacts (Pickle files)
-artifacts/
-*.pkl
-
 # Python Compiled Files
 *.pyc
 
