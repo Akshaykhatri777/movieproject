@@ -1,0 +1,19 @@
+# Virtual Environment
+env/
+
+# Python Cache
+__pycache__/
+
+# Data Artifacts (Pickle files)
+artifacts/
+*.pkl
+
+# Python Compiled Files
+*.pyc
+
+# Jupyter Notebook Checkpoints
+*.ipynb_checkpoints
+
+# System Files
+.DS_Store
+Thumbs.db
