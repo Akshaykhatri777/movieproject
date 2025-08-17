@@ -7,7 +7,7 @@ import time
 #https://api.themoviedb.org/3/movie/{movie_id}?api_key=<<api_key>>&language=en-US
 @st.cache_data
 def fetch_poster(movie_id) :
-  url =  f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=98624a25b9c16a0adec84939b3f26d9c&language=en-US"
+  url =  f"https://api.themoviedb.org/3/movie/{movie_id}?api_key="your_api_key""
   print("Fetching URL:", url)  # DEBUG line
   for attempt in range(3):
         try:
